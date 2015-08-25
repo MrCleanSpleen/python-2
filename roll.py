@@ -11,4 +11,4 @@ def roll(howmany=1,sides=6):
         return total
 
 if __name__ == '__main__':
-    roll()
+    print(roll())
