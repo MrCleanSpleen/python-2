@@ -7,3 +7,5 @@ class HasStats():
     wisdom = 0
     agility = 0
     stamina = 0
+    reputation = 0
+
