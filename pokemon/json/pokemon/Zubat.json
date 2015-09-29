@@ -1,0 +1,15 @@
+{
+  "abilities": ["Inner Focus","Infiltrator"]
+  "description": "Does a bunch of useless stuff",
+  "attack": 45,
+  "catch_rate": 255,
+  "defense": 35,
+  "ev_yield": "1 speed",
+  "evolutions": [
+    {
+      "level": 22,
+      "method": "level up",
+      "to": "Golbat"
+    }
+  ]
+}
