@@ -7,7 +7,7 @@ with open('Zubat.json') as f:
     data = json.load(f)
 f.close()
 
-# pprint(data)
+pprint(data)
 print("Name: " + data["name"])
 print("Speed: " + str(data["speed"]))
 print("Defense : " + str(data["defense"]))

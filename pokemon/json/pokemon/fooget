@@ -10,7 +10,8 @@ data = json.loads(r.text)
 
 print("Name: " + data["name"])
 print("Speed: " + str(data["speed"]))
-print("Defense : " + str(data["defense"]))
+print("Defense: " + str(data["defense"]))
+print("Attack: " + str(data["defense"]))
 for move in data["moves"]:
     print(move["name"], end = ", ")
 
@@ -19,3 +20,5 @@ for ability in data["abilities"]:
 
 for type in data["types"]:
     print(type["name"], end = "- ")
+
+
